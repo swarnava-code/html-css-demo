@@ -1,42 +1,51 @@
 body{
-  background-image: url("https://lh3.googleusercontent.com/proxy/iI_gFLw3GlTCX3lc2lKFvN8UFt0KuC07ueoDmIeAEyBKV7t_ZhbOlGlW1XRg4eH4r4D2vLjuiaPNp68hzU_VINMvmFqixYJjlj-jL4MfFADPiRdwNqP5pV8uXJmka_Dl1q-E7gs");
+  background-image: url("/hh.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   justify-content: center;
-  text-align: center;
+  display: grid;
 }
-.hhh{
-  display: flex;
-  justify-content: flex-start;
-  text-align: left;
-}
-div{
-  display: block;
-}
+
 #survey-form{
+  backdrop-filter: blur(10px);
+  border-radius: 6px;
   padding: 10px;
-  background: rgba(76, 175, 80, 0.7);
-  width: 50%;
-  justify-content: flex-center;
-  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+ 
 }
 .form-group{
-  text-align: center;
-  justify-content: flex-center;
   margin: 10px;
   padding: 10px;
 }
-input, select{
-  width: 50%;
+.form-group-checked{
+  width:auto;
+  margin: 10px;
   padding: 10px;
 }
-#title{
-  justify-content: center;
+.form-group-radio{
+  display: grid;
+  width:auto;
+  margin: 10px;
+  padding: 10px;
 }
+
+input, select{
+  width: 90%;
+  padding: 10px;
+}
+.checkbox{
+  width: auto;
+}
+
 input[type="radio"] {
-  width: 50%;
-  display: flex;
-  justify-content: flex-start;
-  text-align: left;
-  height:20px;
-  background: red;
+  width: auto;
+}
+
+#submit{
+  text-align: center;
+  padding: 10px;
+  background-color:khaki;
+  display: block;
+  width: 30%;
 }
