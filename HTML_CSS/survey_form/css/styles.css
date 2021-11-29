@@ -64,7 +64,8 @@ input[type="radio"] {
     width: auto;
 }
 
-#submit {
+#submit,
+#clear {
     font-style: italic;
     font-size: 99%;
     text-align: center;
@@ -74,7 +75,8 @@ input[type="radio"] {
     border-radius: 5px;
 }
 
-#submit:active {
+#submit:active,
+#clear:active {
     font-size: 100%;
     background-color: rgb(243, 228, 96);
 }
