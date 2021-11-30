@@ -1,4 +1,5 @@
 body {
+    background-color: blueviolet;
     background-image: url("/picture/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
