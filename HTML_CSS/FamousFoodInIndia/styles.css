@@ -1,0 +1,23 @@
+body {
+  font-family: system-ui;
+  background: #0f0f0f;
+  color: #809598;
+  text-align: center;
+  justify-content: space-between;
+}
+td{
+  padding: 30px;
+  color:#F0F0F5;
+}
+#content{
+   border: 3px solid #4CAF50;
+}
+footer{
+  padding: 20px;
+  width: 100%;
+  border: 1px solid #4CAF50;
+  color : #809598;
+}
+h2{
+  color : #FFFFFF;
+}
